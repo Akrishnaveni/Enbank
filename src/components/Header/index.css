@@ -1,0 +1,27 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #152850;
+  position: sticky;
+  height: 100px;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 60px;
+  width: 100px;
+  margin-left: 40px;
+}
+
+.logout-button {
+  width: 100px;
+  border: solid 2px #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 40px;
+  padding: 10px;
+  font-weight: 600;
+  font-family: 'Consolas';
+}
